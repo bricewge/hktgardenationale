@@ -4,6 +4,8 @@
 
 #logo-container img {
     height: 100%;
+    padding-bottom: .1em;
+    padding-top: .1em;
 }
 
 html {
