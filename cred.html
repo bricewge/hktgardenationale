@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+        <title>Expérience Réserve Entreprises</title>
+
+        <!-- CSS  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    </head>
+    <body>
+        <nav class="blue darken-4" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="index.html" class="brand-logo">
+                    <img src="image/logo-ere.png">
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Entreprise</a></li>
+                    <li><a href="cred.html">Admin</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                </ul>
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#">Entreprise</a></li>
+                    <li><a href="cred.html">Admin</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+        <div class="section no-pad-bot" id="index-banner">
+            <div class="container">
+                <br><br>
+                <h3 class="header center red-text text-darken-2">Administrateur</h1>
+
+                    <div class="row">
+                        <div class="row">
+                            <form class="cred col s12">
+
+                                <h6><b>Informations personnelles</b></h6>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input id="first_name" type="text" class="validate">
+                                        <label for="first_name">Prénom</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input id="last_name" type="text" class="validate">
+                                        <label for="last_name">Nom</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input id="birth" type="text" class="validate">
+                                        <label for="birth">Date de naissance</label>
+                                    </div>
+                                </div>
+                                <h6><b>Reconversion vers le civil</b></h6>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <select>
+                                            <option value="1">Auvergne-Rhône-Alpes</option>
+                                            <option value="2">Bourgogne-Franche-Comté</option>
+                                            <option value="3">Bretagne</option>
+                                            <option value="4">Centre-Val de Loire</option>
+                                            <option value="5">Corse</option>
+                                            <option value="6">Grand Est</option>
+                                            <option value="7">Hauts-de-France</option>
+                                            <option value="8">Île-de-France</option>
+                                            <option value="9">Normandie</option>
+                                            <option value="10">Nouvelle-Aquitaine</option>
+                                            <option value="11">Occitanie</option>
+                                            <option value="12">Pays de la Loire</option>
+                                            <option value="13">Provence-Alpes-Côte d'Azur</option>
+                                            <option value="14">Guadeloupe</option>
+                                            <option value="15">Martinique</option>
+                                            <option value="16">Guyane</option>
+                                            <option value="17">La Réunion</option>
+                                            <option value="18">Mayotte</option>
+                                        </select>
+                                        <label>Région</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input id="first_name" type="text" class="validate">
+                                        <label for="first_name">Date de disponibilite</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input type="text" id="autocomplete-input" class="autocomplete">
+                                        <label for="autocomplete-input">Métier</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input id="job-title" type="text" class="validate">
+                                        <label for="job-title">Poste</label>
+                                    </div>
+                                </div>
+                                <h6><b>Formations et expériences</b></h6>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <textarea id="textarea1" class="materialize-textarea" data-length="140"></textarea>
+                                        <label for="textarea1">Parcours militaire</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <textarea id="textarea2" class="materialize-textarea" data-length="140"></textarea>
+                                        <label for="textarea2">Formations militaire et professionelle</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <textarea id="textarea1" class="materialize-textarea" data-length="140"></textarea>
+                                        <label for="textarea1">Compétences</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <textarea id="textarea2" class="materialize-textarea" data-length="140"></textarea>
+                                        <label for="textarea2">Formations académique</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="row center">
+                            <a id="search-button" class="btn-large waves-effect waves-light red darken-2">Enregistrer</a>
+                        </div>
+                        <br><br>
+                    </div>
+            </div>
+
+
+            <footer class="page-footer red darken-2">
+                <div class="footer-copyright">
+                    <div class="container">
+                        © 2017 Garde Nationale
+                    </div>
+                </div>
+            </footer>
+
+
+            <!--  Scripts-->
+            <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+            <script src="js/materialize.js"></script>
+            <script src="js/init.js"></script>
+
+    </body>
+</html>

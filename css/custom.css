@@ -1,0 +1,61 @@
+#logo-container {
+    height: 100%;
+}
+
+#logo-container img {
+    height: 100%;
+    padding-bottom: .1em;
+    padding-top: .1em;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+footer.page-footer .footer-copyright {
+    background-color: transparent;
+}
+
+form h6 {
+    padding-left: .4em;
+}
+
+search {
+    padding-top: 3em;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+    width: 100%;
+}
+
+.parallax img {
+    filter: brightness(70%);
+}
+
+.parallax-container li {
+    font-weight: bold;
+    padding-top: .4em;
+    padding-bottom: .4em;
+}
+
+.resultat {
+    padding-top: 3em;
+}
